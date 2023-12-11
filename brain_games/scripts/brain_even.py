@@ -21,7 +21,7 @@ def main():
             print('Correct!')
             i += 1
         else:
-            print(f''''yes' is wrong answer ;(. Correct answer was 'no'. 
+            print(f''''yes' is wrong answer ;(. Correct answer was 'no'.
 Let's try again, {name} ''')
             break
     else:
