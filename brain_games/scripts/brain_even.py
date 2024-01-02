@@ -13,15 +13,22 @@ def main():
     i = 0
     while i < 3:
         number = randint(0, 100)
+        def is even(number):
+            if number % 2 == 0:
+                return "yes"
+            else:
+                return "no"
+
+
         print("Question:", number)
 
         answer_user = prompt.string("Your answer: ")
 
-        if (number % 2 == 0 and answer_user.lower() == "yes") or (number % 2 != 0 and answer_user.lower() == "no"):
+        if (is even(number) == "yes" and answer_user == "yes") or (is even(number) == "no" and ansver_user == "no"):
             print('Correct!')
             i += 1
         else:
-            print(f''''yes' is wrong answer ;(. Correct answer was 'no'.
+            print(f''''{ansver_user}' is wrong answer ;(. Correct answer was '{is even(number)}'.
 Let's try again, {name} ''')
             break
     else:
