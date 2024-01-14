@@ -11,7 +11,7 @@ def get_nums_and_gcd():
     num1 = randint(0, 100)
     num2 = randint(0, 100)
     nums = f'{num1} {num2}'
-    gcd = math.gcd(num1, num2)
+    gcd = str(math.gcd(num1, num2))
     return nums, gcd
 
 
