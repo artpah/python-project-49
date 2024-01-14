@@ -16,5 +16,5 @@ def get_nums_and_gcd():
 
 
 def run_gcd_game():
-    GCD_INSTRUCTION = 'Find the greatest common divisor of given numbers.'
-    run_game(get_nums_and_gcd, GCD_INSTRUCTION)
+    GCD_INSTR = 'Find the greatest common divisor of given numbers.'
+    run_game(get_nums_and_gcd, GCD_INSTR)

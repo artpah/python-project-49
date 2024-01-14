@@ -18,5 +18,5 @@ def get_prog_and_random_elem():
 
 
 def run_progression_game():
-    PROGRESSION_INSTRUCTION = 'What number is missing in the progression?'
-    run_game(get_prog_and_random_elem, PROGRESSION_INSTRUCTION)
+    PROGR_INSTR = 'What number is missing in the progression?'
+    run_game(get_prog_and_random_elem, PROGR_INSTR)

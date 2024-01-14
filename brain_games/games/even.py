@@ -11,5 +11,5 @@ def get_num_and_res():
 
 
 def run_even_game():
-    EVEN_INSTRUCTION = 'Answer "yes" if the number is even, otherwise answer "no".'
-    run_game(get_num_and_res, EVEN_INSTRUCTION)
+    EVEN_INSTR = 'Answer "yes" if the number is even, otherwise answer "no".'
+    run_game(get_num_and_res, EVEN_INSTR)

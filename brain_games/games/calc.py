@@ -14,5 +14,5 @@ def get_exp_and_res():
 
 
 def run_calc_game():
-    CALC_INSTRUCTION = 'What is the result of the expression?'
-    run_game(get_exp_and_res, CALC_INSTRUCTION)
+    CALC_INSTR = 'What is the result of the expression?'
+    run_game(get_exp_and_res, CALC_INSTR)

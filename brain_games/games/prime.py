@@ -18,5 +18,5 @@ def get_num_and_res():
 
 
 def run_prime_game():
-    PRIME_INSTRUCTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
-    run_game(get_num_and_res, PRIME_INSTRUCTION)
+    PRIME_INS = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+    run_game(get_num_and_res, PRIME_INS)
