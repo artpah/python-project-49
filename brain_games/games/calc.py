@@ -1,18 +1,14 @@
-from random import randint, choice
-
-
+import random
 from brain_games.engine import run_game
+from brain_games.games.constants import CALC_INSTRUCTION
 
 
-def get_exp_and_res():
-    num1 = randint(0, 100)
-    num2 = randint(0, 100)
-    op = choice(['+', '-', '*'])
+def get_math_exp_and_res():
+    num1, num2 = random.randint(0, 100), random.randint(0, 100)
+    op = random.choice(['+', '-', '*'])
     exp = f'{num1} {op} {num2}'
-    res = str(eval(exp))
-    return exp, res
+    return exp, str(eval(exp))
 
 
 def run_calc_game():
-    CALC_INSTR = 'What is the result of the expression?'
-    run_game(get_exp_and_res, CALC_INSTR)
+    run_game(get_math_exp_and_res, CALC_INSTRUCTION)

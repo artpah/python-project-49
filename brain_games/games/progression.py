@@ -1,22 +1,19 @@
-from random import randint, choice
-
-
+import random
 from brain_games.engine import run_game
+from brain_games.games.constants import PROGRESSION_INSTRUCTION
 
 
-def get_prog_and_random_elem():
-    start = randint(1, 100)
-    step = randint(1, 100)
-    length = randint(5, 10)
+def get_prog_and_missed_elem():
+    start = random.randint(1, 100)
+    step = random.randint(1, 100)
+    length = random.randint(5, 10)
     prog_list = list(range(start, start + step * length, step))
-    random_elem = choice(prog_list)
-    index = prog_list.index(random_elem)
-    prog_list[index] = '..'
+    random_index = random.randint(0, len(prog_list) - 1)
+    random_elem = prog_list[random_index]
+    prog_list[random_index] = '..'
     prog = ' '.join(map(str, prog_list))
-    random_elem = str(random_elem)
-    return prog, random_elem
+    return prog, str(random_elem)
 
 
 def run_progression_game():
-    PROGR_INSTR = 'What number is missing in the progression?'
-    run_game(get_prog_and_random_elem, PROGR_INSTR)
+    run_game(get_prog_and_missed_elem, PROGRESSION_INSTRUCTION)
