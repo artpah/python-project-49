@@ -4,19 +4,19 @@
 [![Test Coverage](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage)](https://codeclimate.com/github/codeclimate/codeclimate/test_coverage)
 
 # Название проекта
-Игры разума (Brain Games)
+Игры разума (Brain Games)  
 В проекте реализовано 5 игр. Ниже описание каждой игры.
-игра "Проверка на чётность"
+- игра "Проверка на чётность"
 Суть игры в следующем: пользователю показывается случайное число. И ему нужно ответить yes, если число чётное, или no — если нечётное.
-игра "Калькулятор"
+- игра "Калькулятор"
 Суть игры в следующем: пользователю показывается случайное математическое выражение, например, 35 + 16, которое нужно вычислить и записать правильный ответ.
-игра "НОД"(наибольший общий делитель)
+- игра "НОД"(наибольший общий делитель)
 Суть игры в следующем: пользователю показывается два случайных числа, например, 25 50. Пользователь должен вычислить и ввести наибольший общий делитель этих чисел.
-игра "Арифметическая прогрессия"
+- игра "Арифметическая прогрессия"
 Суть игры в следующем: пользователю показывается ряд чисел, который образует арифметическую прогрессию, заменив любое из чисел двумя точками. Игрок должен определить это число.
-игра "Простое ли число?"
-Суть игры в следующем: пользователю показывается случайное число. И ему нужно ответить yes, если число простое, или no — если непростое.
-Условия для всех игр:
+- игра "Простое ли число?"
+Суть игры в следующем: пользователю показывается случайное число. И ему нужно ответить yes, если число простое, или no — если непростое.  
+ Условия для всех игр:
 - при верном ответе пользователем игра продолжается, при неверном - завершается.
 - всего пользователь должен дать верный ответ 3 раза, после этого игра завершается.
 
@@ -49,17 +49,12 @@ make install
 ### Запуск
 Чтобы запустить утилиту в режиме разработки, выполните команду:
 make brain-games
-![asciinema](https://asciinema.org/a/466YtC9O1qldbScDNMb4PJsND/)
-make brain-even
-![asciinema](https://asciinema.org/a/SPsLRUeDvJU0nx0Uq9znoKOFF/)
-make brain-calc
-![asciinema](https://asciinema.org/a/tsSIGmyg1TR5MFBaFgdJrkaOB/)
-make brain-gcd
-![asciinema](https://asciinema.org/a/RDnAAIvX72n0f7BOiefhgvq63/)
-make brain-progression
-![asciinema](https://asciinema.org/a/NV7nfpBUqX23s68yNz7mimOuj/)
-make brain-prime
-![asciinema](https://asciinema.org/a/KEF9CbYvXfegkAF0fPLIq7yUp/)
+- [make brain-games](https://asciinema.org/a/466YtC9O1qldbScDNMb4PJsND/)
+- [make brain-even](https://asciinema.org/a/SPsLRUeDvJU0nx0Uq9znoKOFF/)
+- [make brain-calc](https://asciinema.org/a/tsSIGmyg1TR5MFBaFgdJrkaOB/)
+- [make brain-gcd](https://asciinema.org/a/RDnAAIvX72n0f7BOiefhgvq63/)
+- [make brain-progression](https://asciinema.org/a/NV7nfpBUqX23s68yNz7mimOuj/)
+- [make brain-prime](https://asciinema.org/a/KEF9CbYvXfegkAF0fPLIq7yUp/)
 
 ### Создание билда
 Чтобы выполнить сборку, выполните команду:
