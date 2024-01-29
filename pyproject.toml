@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "The 'Brain games' project consists of five games in which the user determines the parity of a number, the largest common divisor, a prime number, the value of mathematical expressions and a missing number in an arithmetic progression."
 authors = ["Artem Pakholkov"]
 readme = "README.md"
 packages = [{include = "brain_games"}, ]

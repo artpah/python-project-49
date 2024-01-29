@@ -1,6 +1,6 @@
 import random
 from brain_games.engine import run_game
-from brain_games.games.constants import EVEN_INSTRUCTION
+from brain_games.constants import EVEN_INSTRUCTION
 
 
 def get_num_and_even_ans():
