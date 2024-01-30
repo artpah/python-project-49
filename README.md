@@ -53,7 +53,7 @@ make install
 - [make brain-calc](https://asciinema.org/a/tsSIGmyg1TR5MFBaFgdJrkaOB/)
 - [make brain-gcd](https://asciinema.org/a/RDnAAIvX72n0f7BOiefhgvq63/)
 - [make brain-progression](https://asciinema.org/a/NV7nfpBUqX23s68yNz7mimOuj/)
-- [make brain-prime](https://asciinema.org/a/KEF9CbYvXfegkAF0fPLIq7yUp/)
+- [make brain-prime](https://asciinema.org/a/KEF9CbYvXfegkAF0fPLIq7yUp/)  
 Для запуска утилиты напрямую, выполните команду:
 [brain-games](https://asciinema.org/a/NarXhpSPKO5Wrt2ZIEzSzbCL9/)
 
