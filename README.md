@@ -1,9 +1,8 @@
-### Hexlet tests and linter status:
+### Место для бейджиков:
 [![Actions Status](https://github.com/artpah/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/artpah/python-project-49/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage)](https://codeclimate.com/github/codeclimate/codeclimate/test_coverage)
 
-# Название проекта
+#Название проекта
 Игры разума (Brain Games)  
 В проекте реализовано 5 игр. Ниже описание каждой игры.
 - игра "Проверка на чётность"
@@ -36,7 +35,7 @@
 
 ## Использование
 Установите пакет с помощью команды:
-python3 -m pip install --user dist/*.whl
+pip install git+https://github.com/artpah/python-project-49
 
 ## Разработка
 
@@ -55,6 +54,8 @@ make install
 - [make brain-gcd](https://asciinema.org/a/RDnAAIvX72n0f7BOiefhgvq63/)
 - [make brain-progression](https://asciinema.org/a/NV7nfpBUqX23s68yNz7mimOuj/)
 - [make brain-prime](https://asciinema.org/a/KEF9CbYvXfegkAF0fPLIq7yUp/)
+Для запуска утилиты напрямую, выполните команду:
+[brain-games](https://asciinema.org/a/NarXhpSPKO5Wrt2ZIEzSzbCL9/)
 
 ### Создание билда
 Чтобы выполнить сборку, выполните команду:
@@ -63,6 +64,10 @@ make build
 ### Установка
 Чтобы выполнить установку пакета, выполните команду:
 make package-install
+
+### Удаление пакета
+Чтобы выполнить удаление пакета, выполните команду:
+poetry remove python-project-49
 
 ## Команда проекта
 Автор:
