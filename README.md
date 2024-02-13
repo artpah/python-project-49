@@ -36,16 +36,16 @@
 
 ## Использование
 Установите пакет с помощью команды:  
-'''shell
+```shell
 python3 -m pip install --user
 git+https://github.com/artpah/python-
 project-49.git
-'''
+```
 ## Удаление
 Удалите пакет с помощью команды:  
-'''shell
+```shell
 python3 -m pip unistall hexlet-code
-'''
+```
 
 ## Разработка
 
@@ -54,9 +54,9 @@ python3 -m pip unistall hexlet-code
 
 ### Установка зависимостей
 Для установки зависимостей, выполните команду:
-''' shell
+``` shell
 poetry install
-'''
+```
 
 ### Запуск
 Чтобы запустить утилиты, выполните команды:
@@ -70,15 +70,15 @@ poetry install
 
 ### Создание билда
 Чтобы выполнить сборку, выполните команду:
-'''shell
+```shell
 poetry build
-'''
+```
 
 ### Установка
 Чтобы выполнить установку пакета, выполните команду:
-'''shell
+```shell
 poetry package-install
-''
+```
 
 ## Команда проекта
 Автор:
